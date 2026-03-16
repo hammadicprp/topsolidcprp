@@ -1,0 +1,512 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Personal Edition 10.2.0.196">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Masse d'une pi&egrave;ce</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Masse d'une pi&egrave;ce">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Masse d'une pi&egrave;ce" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Topsolid BTS CPRP Henry FABRE" /> 
+
+  <!-- Bootstrap CSS -->
+  <link href="vendors/bootstrap-5.3.7/bootstrap.min.css" rel="stylesheet"/>
+  <link href="vendors/bootstrap-icons-1.13.1/bootstrap-icons.min.css" rel="stylesheet"/>
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="visually-hidden">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Topsolid BTS CPRP Henry FABRE</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close" role="presentation"> 
+        <button class="hnd-toggle btn btn-default" aria-label="close">
+          <span class="bi bi-x" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="nav-item tab">
+            <a href="#contents" id="tab-contents" class="nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#contents" aria-controls="contents" aria-selected="true">
+                <i class="bi bi-list-ul"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="nav-item tab">
+            <a href="#index" id="tab-index" class="nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#index" aria-controls="index" aria-selected="false">
+                <i class="bi bi-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="nav-item tab">
+            <a href="#search" id="tab-search" class="nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#search" aria-controls="search" aria-selected="false">
+                <i class="bi bi-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." aria-label="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit" aria-label="Search...">
+                      <span class="bi bi-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="Massedunepiece"
+		  data-hnd-context="14"
+		  data-hnd-title="Masse d'une pièce"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="CodificationoutilsDMU.html" title="Codification outils DMU" role="button"><span class="bi bi-chevron-left" aria-hidden="true"></span></a><a class="btn btn-default" href="Conventionscliquesouris.html" title="Conventions clique souris" role="button"><span class="bi bi-chevron-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Masse d'une pi&egrave;ce</h2>
+
+            <div class="main-content">
+                
+<p class="rvps8"><span class="rvts54">Déterminer la masse d'un pièce</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #000000; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 343px;">
+   <p class="rvps7"><span class="rvts89">Attribuer un matériaux</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 730px;">
+   <br/>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 343px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li style="list-style-image: url('lib/9.bmp')" class="rvps2 noindent"><span class="rvts43">Outils / Matériaux et revêtement.....&nbsp;</span></li>
+   </ul>
+   <p class="rvps2"><span class="rvts43"><br/></span></p>
+   <p class="rvps2"><img alt="" style="width : 205px; height : 108px; padding : 1px;" src="lib/NouvelElement%20289.png"></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 730px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NouvelElement%20290.png"></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 343px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps5"><span class="rvts13">Dans la boite de dialogue:</span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li style="list-style-image: url('lib/9.bmp')" class="rvps6 noindent"><span class="rvts41">Choisir la catégorie de matériau et la matériau.</span><img alt="" style="padding : 1px;" src="lib/valider.png"></li>
+   </ul>
+   <p class="rvps6"><span class="rvts41"><br/></span></p>
+   <p class="rvps6"><span class="rvts41"><br/></span></p>
+   <p class="rvps6"><span class="rvts41"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 730px;">
+   <p class="rvps2"><img alt="" style="width : 326px; height : 529px; padding : 1px;" src="lib/NouvelElement%20291.png"></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 343px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li style="list-style-image: url('lib/9.bmp')" class="rvps2 noindent"><span class="rvts43">Outils / Propriétés physiques...</span></li>
+   </ul>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 730px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NouvelElement%20295.png"></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 343px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps5"><span class="rvts13">Dans la boite de dialogue:</span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li style="list-style-image: url('lib/9.bmp')" class="rvps2 noindent"><span class="rvts43">Cocher masse Automatique.....&nbsp;</span></li>
+   </ul>
+   <p class="rvps2"><span class="rvts43">&nbsp; &nbsp; Eventuellement d'autres paramètres &nbsp; &nbsp; &nbsp;souhaités, Surfaces, Volume....</span><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/valider.png"></p>
+   <p class="rvps2"><span class="rvts43"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 730px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NouvelElement%20296.png"></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td colspan="2" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px;">
+   <p class="rvps7"><span class="rvts89">Afficher la masse</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 343px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps5"><span class="rvts13">Pour afficher la masse basculer en étape analyse.</span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><img alt="" style="width : 185px; height : 100px; padding : 1px;" src="lib/NouvelElement%20292.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 730px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NouvelElement%20293.png"></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 343px;">
+   <p class="rvps6"><span class="rvts74">Pour afficher les valeurs de la masse:</span></p>
+   <p class="rvps6"><span class="rvts41"><br/></span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li style="list-style-image: url('lib/17.bmp')" class="rvps6 noindent"><span class="rvts41">Dans la fenêtre </span><span class="rvts48">Entités</span></li>
+   </ul>
+   <p class="rvps6"><span class="rvts41">&nbsp;</span><span class="rvts48">Paramètres</span><span class="rvts41"> / </span><span class="rvts48">paramètres systèmes.</span></p>
+   <p class="rvps5"><span class="rvts39"><br/></span></p>
+   <p class="rvps5"><span class="rvts39"><br/></span></p>
+   <p class="rvps5"><span class="rvts39"><br/></span></p>
+   <p class="rvps5"><span class="rvts39">( Penser à basculer entre: Etape analyse et Etape modélisation au besoin.)&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 730px;">
+   <p class="rvps2"><img alt="" style="width : 397px; height : 538px; padding : 1px;" src="lib/NouvelElement%20297.png"></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 343px;">
+   <p class="rvps2"><span class="rvts98">Pour modifier l'unité:</span></p>
+   <p class="rvps2"><span class="rvts62"><br/></span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li style="list-style-image: url('lib/17.bmp')" class="rvps6 noindent"><span class="rvts97">Sur Masse </span><img alt="" style="width : 50px; height : 50px; vertical-align: middle; padding : 1px;" src="lib/Clc%20droit.png"><span class="rvts97">Unité...</span></li>
+   </ul>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li style="list-style-image: url('lib/17.bmp')" class="rvps6 noindent"><span class="rvts97">Dans la boite de dialogue sélectionner l'unité </span><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/valider.png"></li>
+   </ul>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 730px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NouvelElement%20298.png"></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NouvelElement%20308.png"></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 343px; height: 244px;">
+   <p class="rvps2"><span class="rvts98"><br/></span></p>
+   <p class="rvps5"><span class="rvts13">Il est possible d'afficher la masse dans l'étape modélisation.</span><span class="rvts99">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts98"><br/></span></p>
+   <p class="rvps6"><span class="rvts74"><br/></span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li style="list-style-image: url('lib/18.bmp')" class="rvps6 noindent"><span class="rvts97">Activer: Montrer les entités qui ne sont pas disponible.</span></li>
+   </ul>
+   <p class="rvps2"><span class="rvts98"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NouvelElement%20312.png"></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps5"><span class="rvts13">Les valeurs s'affichent dans les paramètres grisées.</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 730px; height: 244px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><img alt="" style="width : 208px; height : 314px; padding : 1px;" src="lib/NouvelElement%20310.png"></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td colspan="2" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 1073px;">
+   <p class="rvps7"><span class="rvts90">Afficher la masse dans la mise en plan (modifier l'unité)</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 343px;">
+   <p class="rvps2"><span class="rvts62"><br/></span></p>
+   <p class="rvps2"><span class="rvts62"><br/></span></p>
+   <p class="rvps5"><span class="rvts13">Lors de la mise en plan la masse s'affiche automatiquement dans le cartouche. Un paramètre relais à été crée afin d'importer la masse.</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 730px;">
+   <p class="rvps2"><img alt="" style="width : 210px; height : 146px; padding : 1px;" src="lib/NouvelElement%20299.png"><img alt="" style="padding : 1px;" src="lib/NouvelElement%20300.png"></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 343px;">
+   <p class="rvps2"><span class="rvts62"><br/></span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li style="list-style-image: url('lib/17.bmp')" class="rvps6 noindent"><span class="rvts41">Dans la fenêtre </span><span class="rvts48">Entités</span></li>
+   </ul>
+   <p class="rvps6"><span class="rvts41">&nbsp;</span><span class="rvts48">Paramètres</span><span class="rvts41"> / </span><span class="rvts48">Masse</span><span class="rvts41"> </span><img alt="" style="width : 50px; height : 50px; vertical-align: -webkit-baseline-middle; padding : 1px;" src="lib/Clc%20droit.png"><span class="rvts41"> </span><span class="rvts48">Editer</span></p>
+   <p class="rvps5"><span class="rvts13"><br/></span></p>
+   <p class="rvps2"><span class="rvts62"><br/></span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 730px;">
+   <p class="rvps2"><img alt="" style="width : 298px; height : 277px; padding : 1px;" src="lib/NouvelElement%20301.png"></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 343px;">
+   <p class="rvps2"><span class="rvts98">Modifier l'unité.</span></p>
+   <p class="rvps2"><span class="rvts62"><br/></span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li style="list-style-image: url('lib/17.bmp')" class="rvps6 noindent"><span class="rvts93">Dans le boite de dialogue</span><span class="rvts92">,</span></li>
+   </ul>
+   <p class="rvps6"><span class="rvts92">&nbsp;choisir l'unité désirée</span><img alt="" style="padding : 1px;" src="lib/valider.png"></p>
+   <p class="rvps2"><span class="rvts91"><br/></span></p>
+   <p class="rvps6"><span class="rvts94"><br/></span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 730px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><img alt="" style="width : 266px; height : 318px; padding : 1px;" src="lib/NouvelElement%20302.png"></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 343px;">
+   <p class="rvps2"><span class="rvts95">ATTENTION &nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 730px;">
+   <br/>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 343px;">
+   <p class="rvps2"><span class="rvts62"><br/></span></p>
+   <p class="rvps2"><span class="rvts62"><br/></span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li style="list-style-image: url('lib/17.bmp')" class="rvps2 noindent"><span class="rvts96">Revenir à l' Etape modélisation</span></li>
+   </ul>
+   <p class="rvps2"><span class="rvts62"><br/></span></p>
+   <p class="rvps2"><span class="rvts62"><br/></span></p>
+   <p class="rvps2"><span class="rvts62"><br/></span></p>
+   <p class="rvps2"><span class="rvts62"><br/></span></p>
+   <p class="rvps2"><span class="rvts62"><br/></span></p>
+   <p class="rvps2"><span class="rvts62">Lorsqu'on modifie l'unité de la masse</span></p>
+   <p class="rvps2"><span class="rvts62">Topsolid bascule automatiquement à l'Etape</span></p>
+   <p class="rvps2"><span class="rvts62">fond de plan, la mise en plan n'est pas visible.</span></p>
+   <p class="rvps2"><span class="rvts62">Il faut basculer à l'Etape mise en plan.&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts62">Les mises en plan sont de nouveau visible.</span></p>
+   <p class="rvps2"><span class="rvts62"><br/></span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 1px; width: 730px;">
+   <p class="rvps2"><img alt="" style="width : 168px; height : 143px; padding : 1px;" src="lib/NouvelElement%20304.png"></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NouvelElement%20306.png"></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NouvelElement%20307.png"></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts57"><br/></span></p>
+<p class="rvps2"><span class="rvts57"><br/></span></p>
+<p class="rvps2"><span class="rvts57"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NouvelElement%20314.png"><span class="rvts6"></span></p>
+<p class="rvps4" style="clear: both;"><span class="rvts11">Créé avec HelpNDoc Personal Edition: </span><a class="rvts12" href="https://www.helpndoc.com/fr">Éditeur de documentation CHM facile</a></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">Copyright &copy; &lt;2025&gt; by &lt;Ahmed HAMMADI Henry FABRE  CARPENTRAS&gt;. All Rights Reserved.</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-bs-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.7.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-5.3.7/bootstrap.bundle.min.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.11/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script src="_topic_init.js"></script>
+
+
+
+</body>
+
+</html>
+
